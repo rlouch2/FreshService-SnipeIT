@@ -41,7 +41,7 @@ async function getUserAssets(){
 			tr.appendChild(AssetImage);
 
 			let AssetTag = document.createElement("td");
-			AssetTag.innerHTML = "<a href=\"https://assets.creteschools.org/hardware/" + item.id + "\" target=\"_blank\">" + item.asset_tag + "</a>"
+			AssetTag.innerHTML = "<a href=\"https://" + client.iparams.get("snipe_url") + "/" + item.id + "\" target=\"_blank\">" + item.asset_tag + "</a>"
 			tr.appendChild(AssetTag);
 			
 			let AssetName = document.createElement("td");
