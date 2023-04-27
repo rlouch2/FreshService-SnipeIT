@@ -1,21 +1,8 @@
-## Your First App
+This will establish a connection betweeh FreshService and the SnipeIT API.
 
-This app displays the name of the requester of a Freshservice ticket in the ticket_sidebar placeholder
+You will need to create an API key in SnipeIT. To do this please follow the instructions listed
+(https://snipe-it.readme.io/reference/generating-api-tokens)[https://snipe-it.readme.io/reference/generating-api-tokens]
 
-### Files and Folders
-    .
-    ├── README.md                     A file for your future self and developer friends to learn about app
-    ├── app                           A folder to put all files needed for frontend components
-    │   ├── index.html                A landing page for the user to use the app
-    │   ├── scripts                   JavaScript to handle app's frontend components business logic
-    │   │   └── app.js
-    │   └── styles                    A folder of all the styles for app
-    │       ├── images                A folder to put all the images
-    │       │   ├── icon.svg
-    │       │   └── rocket.svg
-    │       └── style.css
-    ├── config                        A folder to hold all the app's configuration files
-    │   └── iparams.json
-    └── manifest.json                 A JSON file holding meta data for app to run on platform
-
-Explore [more of app sample apps](https://community.developers.freshworks.com/t/freshworks-sample-apps/3604) on the Freshworks github respository.
+To install this into your FreshService instance please follow these instructions
+-Download the zip file from (here)[https://github.com/rlouch2/FreshService-SnipeIT/raw/master/dist/FreshService_SnipeIT.zip]
+-Install into your FreshService instance -(https://developers.freshservice.com/docs/custom-apps/#new_custom_app)[https://developers.freshservice.com/docs/custom-apps/#new_custom_app]
