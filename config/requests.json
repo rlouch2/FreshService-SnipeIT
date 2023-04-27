@@ -1,0 +1,24 @@
+{
+    "getUser": {
+        "schema": {
+            "method": "GET",
+            "host": "<%= iparam.snipe_url %>",
+            "path": "/api/v1/users?email=<%= context.email %>",
+			"headers":{
+				"Authorization": "Bearer <%= iparam.snipe_api_token %>",
+				"Content-Type": "application/json"
+			}
+		}
+    },
+	"getUserAssets": {
+        "schema": {
+            "method": "GET",
+            "host": "<%= iparam.snipe_url %>",
+            "path": "/api/v1/users/<%= context.snipeUserId %>/assets",
+			"headers":{
+				"Authorization": "Bearer <%= iparam.snipe_api_token %>",
+				"Content-Type": "application/json"
+			}
+        }
+    }
+}

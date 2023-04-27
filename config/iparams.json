@@ -1,0 +1,15 @@
+{
+	"snipe_api_token": {
+    "display_name": "Snipe API Token",
+    "description": "Please enter your Snipe API token",
+    "type": "text",
+    "required": true,
+    "secure": true
+  },
+   "snipe_url": {
+    "display_name": "SnipeIT URL",
+    "description": "Please enter your SnipeIT URL",
+    "type": "text",
+    "required": true
+  }
+}

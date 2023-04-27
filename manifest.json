@@ -1,0 +1,21 @@
+{
+  "platform-version": "2.3",
+  "product": {
+    "freshservice": {
+      "location": {
+        "ticket_sidebar": {
+          "url": "index.html",
+          "icon": "styles/images/snipe-it-logo.svg"
+        }
+      },
+		"requests": {
+			"getUser": {},
+			"getUserAssets": {}
+			}
+		}
+	},
+  "engines": {
+    "node": "18.16.0",
+    "fdk": "9.0.0"
+  }
+}
